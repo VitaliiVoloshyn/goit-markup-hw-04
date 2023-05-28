@@ -373,6 +373,7 @@ display: flex;
 flex-wrap: wrap;
 border-radius: 0px 0px 4px 4px;
 gap: 24px;
+justify-content: center; 
 }
 
 
@@ -432,15 +433,17 @@ justify-content: center;
     gap: 24px;
 }
 .icons-team{
-    
+    fill: #f4f4fd;
    width: 40px;
    height: 40px;
 }
 .soc-icons{
  
 }
+/*--Costumers--*/
 .costumers-section{
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .costumers-container{
 
@@ -455,10 +458,23 @@ justify-content: center;
     flex-basis: calc((100% - 3 * 24px)/4);
 }
 .costumers-item{
- 
+    width: calc((100% - 120px) / 6);
 }
 .costumers-link{
-
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius:4px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: #8e8f99;
+}
+.costumers-link:hover{
+    border-color: #404bbf; 
+}
+.costumers-link:focus{
+    border-color: #404bbf; 
 }
 .costumers-icon{
 
@@ -596,16 +612,24 @@ padding-left: 24px;
 padding-right: 24px;
 border: 1px solid #e7e9fc;
 border-radius: 4px;
+
 }
+
 .button-filter:hover{
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
+  
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 .button-filter:focus{
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
+ 
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 /*-Row-*/
 
@@ -637,7 +661,17 @@ border-radius: 4px;
 .row-item { 
   width: calc((100% - 48px) / 3);
 }
-
+.row-link{ 
+    display: block;
+}
+.row-link:hover{
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.row-link:focus{
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .row-title {
 color: #2E2F42;
 font-family: 'Roboto';
