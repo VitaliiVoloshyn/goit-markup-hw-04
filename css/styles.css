@@ -307,7 +307,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
 }
-.about{
+.about-container{
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -566,7 +566,7 @@ margin-right: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
- 
+    fill: #f4f4fd;
 }
 .media-contact:hover{
     background-color: #31d0aa; 
