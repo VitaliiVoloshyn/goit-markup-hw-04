@@ -307,7 +307,15 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
 }
-
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px; 
+}
 .about-list{
     display: flex;
     gap: 24px;
@@ -318,10 +326,10 @@ width: calc((100-72px)/4) ;
 
 }
 .about-item::before{
-display: block;
+
 content:"" ;
-height: 64px;
-background-image:url(../images/icon/antenna.svg);
+
+
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
