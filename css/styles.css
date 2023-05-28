@@ -432,6 +432,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+fill: #f4f4fd;
 }
 .team-soc-link:hover{
     background-color: #404bbf;
