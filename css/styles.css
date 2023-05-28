@@ -55,7 +55,7 @@ body{
   display: flex;  
   align-items: center;
  
- 
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   border-bottom: 1px solid #e7e9fc;
 }
 .logo{  
@@ -194,6 +194,7 @@ color: #404bbf;
 
 /*--Hero--*/
 .hero{
+    max-width: 1440px;
     background: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -413,6 +414,15 @@ margin-bottom: 8px;
     text-align: center;
     color: #434455;
 }
+.team-soc-link{
+width: 100%;
+height: 100%;
+background-color:#4D5AE5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .icons{
     
 }
@@ -456,10 +466,15 @@ margin-bottom: 8px;
 /* Footer */
 .footer {
     background: #2E2F42;
-  display: flex;
+    display: flex;
     padding-top: 100px; 
     padding-bottom: 100px;
   
+}
+.foter-page{
+    display: flex; 
+    align-items: baseline; 
+ 
 }
 .footer-text {
 font-family: "Roboto", sans-serif;
@@ -473,9 +488,60 @@ max-width: 264px;
 
 }
 .footer-item{
-margin-left: 156px;
-  
+
+margin-right: 120px;
+
 }
+.media{
+    max-width: 208px;
+    max-height: 80px;
+     margin-left: 540px;
+      position: absolute;
+    
+         
+ }
+.media-list{
+       
+    display: flex; 
+    gap: 16px;
+ }
+.media-item{
+   
+        width: 40px;
+        height: 40px;
+       
+ }
+.media-title{
+     color: #FFFFFF;  
+     font-family: "Roboto", sans-serif;
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Vertical-align: Top;
+    letter-spacing: 0.02em ;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.media-contact{
+    width: 100%;
+    height: 100%;
+    background: #4D5AE5;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.media-contact:hover{
+    background-color: #31d0aa; 
+}
+.media-contact:focus{
+    background-color: #31d0aa;
+}
+ .media-icon{
+    fill: #f4f4fd;
+ }
+    
 .logo-text-footer{
     color: #f4f4fd
 }
@@ -589,36 +655,4 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em ;
-}
-.media{
-max-width: 208px;
-max-height: 80px;
- margin-left: 540px;
-  position: absolute;
-
-  
-   
-}
-.media-list{
-   
-display: flex; 
-gap: 16px;
-}
-.media-item{
-    background: #4D5AE5;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-.media-title{
-    color: #FFFFFF;  
-    font-family: "Roboto", sans-serif;
-Font-style: Medium;
-Font-size: 16px;
-Line-height: 1.5;
-Vertical-align: Top;
-letter-spacing: 0.02em ;
-}
-.media-contact{
-   
 }
